@@ -2,7 +2,7 @@ import React from 'react'
 import AfternoonSide from './AfternoonSide'
 import EveningSide from './EveningSide'
 import MorningSide from './MorningSide'
-import './index.css';
+import './landing.css';
 
 export default function Sessions() {
     return (
@@ -10,7 +10,6 @@ export default function Sessions() {
             <MorningSide/>
             <AfternoonSide/>
             <EveningSide/>
-            
         </div>
     )
 }

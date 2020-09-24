@@ -1,5 +1,5 @@
 import React from 'react';
-import "./index.css";
+import "./landing.css";
 import navLogo from "./navLogo.png"
 
 export default function NavBar() {

@@ -4,7 +4,7 @@ import './landing.css';
 export default function EveningSide() {
     return (
         <div className ="evening">
-            <h1> Evening Events</h1>
+            <a href = "/" ><h1> Evening Events</h1></a>
 
             <figure className = "one">
                 <img src = "https://images.pexels.com/photos/2422293/pexels-photo-2422293.jpeg?cs=srgb&dl=pexels-jopwell-2422293.jpg&fm=jpg" alt = "Event" />

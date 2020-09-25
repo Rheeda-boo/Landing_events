@@ -1,6 +1,8 @@
 import React from 'react';
 import './landing.css';
 
+import {Link}  from "react-router-dom";
+
 export default function MorningSide() {
     return (
         <div className = "morning">
@@ -34,7 +36,7 @@ export default function MorningSide() {
                 </figcaption>
             </figure> */}
 
-            <a href = "/"><b>See more events....</b></a>
+            <Link to =  "/morning"><b>See more events....</b></Link>
             
         </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react';
 import './landing.css';
+import {Link}  from "react-router-dom";
 
 export default function AfternoonSide() {
     return (
@@ -32,7 +33,7 @@ export default function AfternoonSide() {
                         <a href = "/"><b>Sat, Oct 3, 2020 4:00 PM</b><br/><i>Everygirls Rise</i></a>
                 </figcaption>
             </figure> */}
-            <a href = "/"><b>See more events....</b></a>
+            <Link to =  "/afternoon"><b>See more events....</b></Link>
         
         </div>
     )

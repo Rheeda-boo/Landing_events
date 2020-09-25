@@ -5,7 +5,8 @@ import {Link}  from "react-router-dom";
 export default function EveningSide() {
     return (
         <div className ="evening">
-            <a href = "/" ><h1> Evening Events</h1></a>
+            <Link to =  "/evening"><h1> Evening Events</h1></Link>
+    
 
             <figure className = "one">
                 <img src = "https://images.pexels.com/photos/2422293/pexels-photo-2422293.jpeg?cs=srgb&dl=pexels-jopwell-2422293.jpg&fm=jpg" alt = "Event" />

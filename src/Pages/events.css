@@ -10,9 +10,8 @@ h1{
 }
 
 figure {
-    display:inline-grid;
-      grid-gap: 15px;
-        grid-template-columns: auto auto ;
-    /* padding: 20px; */
-    padding-bottom: 25px;
+    /* display:inline-grid;
+    grid-gap: 2%;
+    grid-template-columns: auto ; */
+
 }

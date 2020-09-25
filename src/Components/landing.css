@@ -12,6 +12,7 @@ footer {
     color: whitesmoke;
     background-color: #270949;
     float: bottom;
+    position: relative;
     padding: 1% 2%;
     justify-content: center;
 }

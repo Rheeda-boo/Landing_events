@@ -29,12 +29,7 @@ export default function EveningSide() {
                 </figcaption>
             </figure>
 
-            {/* <figure className = "four">
-                <img src ="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt = "Event" />
-                <figcaption> 
-                        <a href = "/"><b>Sat, Sep 26, 2020 4:00 PM BST</b><br/><i>SocietyX</i></a>
-                </figcaption>
-            </figure> */}
+           
 
             <Link to =  "/evening"><b>See more events....</b></Link>
             

@@ -9,9 +9,10 @@ h1{
     justify-self: center;
 }
 
-figure {
-    /* display:inline-grid;
-    grid-gap: 2%;
-    grid-template-columns: auto ; */
+.morningEvents {
+    display:inline-grid;
+    grid-gap: 3%;
+    grid-template-columns: auto auto;
+    align-items: center;
 
 }
